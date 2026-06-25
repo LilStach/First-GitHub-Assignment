@@ -71,21 +71,43 @@
         justify-content: center;
         align-items: center;
       }
+      #mb {
+        position: sticky;
+        top: 10px;
+
+        width: 160px;
+        height: 50px;
+        background-color: rgb(255, 240, 245);
+        border: 4px solid rgb(240, 255, 240);
+        padding: 1px;
+        border-radius: 15px;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
   </head>
   
   <body>
+    <div id="mb">
+        <div><a href="#abm"><h5>All About Me</h5></a></div>
+        <div><a href="#hs"><h5>Hobbies/Skills</h5></a></div>
+        <div><a href="#innerb"><h5>Fun Fact</h5></a></div>
+        <div><a href="#tmap"><h5>Current Home</h5></a></div>
+    </div>
     <div id="tb">
         <div><a href="#top"><h5>Back to Top &uarr;</h5></a></div>
     </div>
 
     <div class="heading"><h1>Mila Stachowiak</h1></div>
-    <div class="heading">
+    <div class="heading" id="abm">
       <h3>All About Me:</h3>
       <p>I am 10 years old, have a younger sister, and am very smart.</p>
     </div>
     
-    <div class="heading">
+    <div class="heading" id="hs">
       <h3>Hobbies/Skills:</h3>
       <ul>
         <li>Swim</li>
