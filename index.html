@@ -54,76 +54,37 @@
         width: 400px;
         padding: 5px;
       }
-      #tb {
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
+     #menu {
+    position: sticky;
+    top: 10px;
 
-        width: 160px;
-        height: 50px;
-        background-color: rgb(255, 240, 245);
-        border: 4px solid rgb(240, 255, 240);
-        padding: 1px;
-        border-radius: 15px;
-        text-align: center;
+    display: flex;
+    gap: 10px;
+}
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .mb {
-        width: 160px;
-        height: 50px;
-        background-color: rgb(255, 240, 245);
-        border: 4px solid rgb(240, 255, 240);
-        padding: 1px;
-        border-radius: 15px;
-        text-align: center;
+.mb {
+    width: 160px;
+    height: 50px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #w1 {
-        position: sticky;
-        top: 10px;
-        left: 0px;
-      }
-      #w2 {
-        position: sticky;
-        top: 10px;
-        left: 165px;
-      }
-      #w3 {
-        position: sticky;
-        top: 10px;
-        left: 225px;
-      }
-      #w4 {
-        position: sticky;
-        top: 10px;
-        left: 385px;
-      }
+    background-color: rgb(255, 240, 245);
+    border: 4px solid rgb(240, 255, 240);
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     </style>
   </head>
   
   <body>
-    <div class="mb" id="w1">
-        <div><a href="#abm"><h5>All About Me</h5></a></div>
-    </div>
-    <div class="mb" id="w2">
-        <div><a href="#hs"><h5>Hobbies/Skills</h5></a></div>
-    </div>
-    <div class="mb" id="w3">
-        <div><a href="#innerb"><h5>Fun Fact</h5></a></div>
-    </div>
-    <div class="mb" id="w4">
-        <div><a href="#tmap"><h5>Current Home</h5></a></div>
-    </div>
-
-
-
-    
+<div id="menu">
+    <div class="mb"><a href="#abm">All About Me</a></div>
+    <div class="mb"><a href="#hs">Hobbies/Skills</a></div>
+    <div class="mb"><a href="#badge">Fun Fact</a></div>
+    <div class="mb"><a href="#tmap">Current Home</a></div>
+</div>
+  
     <div id="tb">
         <div><a href="#top"><h5>Back to Top &uarr;</h5></a></div>
     </div>
