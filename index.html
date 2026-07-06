@@ -97,6 +97,15 @@
         left: calc(60% + 10px);
         top: 510px
       }
+      #form {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        background-color: rgb(255, 240, 245);
+        border: 4px solid rgb(240, 255, 240);
+        border-radius: 15px;
+      }
     </style>
   </head>
   
@@ -156,38 +165,32 @@
         loading="lazy" 
         referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
-    <form action="https://formspree.io/f/mykqvwyb" method="POST">
-      <label for="firstn">First Name:</label>
-      <label for="lastn">Last Name:</label><br>
-      <input type="text" id="firstn" name="firstn">
-      <input type="text" id="lastn" name="lastn">
-      <br>
-      <br>
-
-      <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email">
-      <br>
-      <br>
-
-      <label for="cdate">When contact is needed:</label><br>
-      <input type="date" id="cdate" name="cdate">
-      <br>
-      <br>
-
-      <label for="hofoay">List your hobbies and favorite foods here:</label><br>
-      <textarea id=hofoay" name="hofoay"></textarea>
-      <br>
-      <br>
-      
-      <input type="submit" value="Submit">
-    </form>
+    <div id="form">
+      <form action="https://formspree.io/f/mykqvwyb" method="POST">
+        <label for="firstn">First Name:</label>
+        <label for="lastn">Last Name:</label><br>
+        <input type="text" id="firstn" name="firstn">
+        <input type="text" id="lastn" name="lastn">
+        <br>
+        <br>
+  
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+  
+        <label for="cdate">When contact is needed:</label><br>
+        <input type="date" id="cdate" name="cdate">
+        <br>
+        <br>
+  
+        <label for="hofoay">List your hobbies and favorite foods here:</label><br>
+        <textarea id=hofoay" name="hofoay"></textarea>
+        <br>
+        <br>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </body>
 </html>
-
-<!-- Create a contact form that includes:
-Name
-Email
-Favorite Hobby
-Favorite Food
-Submit Button
- -->
