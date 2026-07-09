@@ -93,8 +93,7 @@
           align-items: center;
       }
       #map {
-        position: relative;
-        left: calc(60% + 10px);
+
       }
       #form {
         position: fixed;
@@ -166,16 +165,17 @@
         referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
     <div id="form">
+      <h3>Contact Form:</h3>
       <form action="https://formspree.io/f/mykqvwyb" method="POST">
         <label for="firstn">First Name:</label>
         <label for="lastn">Last Name:</label><br>
-        <input type="text" id="firstn" name="firstn">
-        <input type="text" id="lastn" name="lastn">
+        <input type="text" id="firstn" name="firstn" placeholder="example: Hot-Dog">
+        <input type="text" id="lastn" name="lastn" placeholder="example: Hanger">
         <br>
         <br>
   
         <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" name="email" placeholder="example: hot-dog-hanger@cooldogs.yesss">
         <br>
         <br>
   
@@ -185,7 +185,7 @@
         <br>
   
         <label for="hofoay">List your hobbies and favorite foods here:</label><br>
-        <textarea id=hofoay" name="hofoay"></textarea>
+        <textarea id="hofoay" name="hofoay" placeholder="examples: swimming, skiing, pasta, burritos"></textarea>
         <br>
         <br>
         
