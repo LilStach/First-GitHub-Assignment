@@ -114,6 +114,20 @@
         border: 4px solid rgb(240, 255, 240);
         border-radius: 15px;
       }
+      #coolstuff {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 240, 245);
+        border: 4px solid rgb(240, 255, 240);
+        border-radius: 15px;
+        transition: width 2s, height 2s, background-color 2s, border 2s;
+      }
+      #coolstuff:hover {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(240, 255, 240);
+        border: 4px solid rgb(255, 240, 245);
+      }
     </style>
   </head>
   
@@ -209,6 +223,14 @@
     <audio id="aud" controls>
       <source src="Twinkle Twinkle.mp3" type="audio/mpeg">
     </audio>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="coolstuff">
+      Hi
+    </div>
     
   </body>
 </html>
